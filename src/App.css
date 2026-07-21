@@ -146,7 +146,13 @@ a {
   cursor: pointer;
 }
 
-.menu-web ul {
+.navbar-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-grid nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -154,7 +160,7 @@ a {
   gap: 2.5rem;
 }
 
-.menu-web ul li a {
+.navbar-grid nav ul li a {
   font-size: 0.95rem;
   font-weight: 500;
   color: var(--text-secondary);
@@ -162,12 +168,12 @@ a {
   padding: 0.25rem 0;
 }
 
-.menu-web ul li a:hover,
-.menu-web ul li a.active {
+.navbar-grid nav ul li a:hover,
+.navbar-grid nav ul li a.active {
   color: var(--color-primary);
 }
 
-.menu-web ul li a::after {
+.navbar-grid nav ul li a::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -178,63 +184,22 @@ a {
   transition: var(--transition-fast);
 }
 
-.menu-web ul li a:hover::after,
-.menu-web ul li a.active::after {
+.navbar-grid nav ul li a:hover::after,
+.navbar-grid nav ul li a.active::after {
   width: 100%;
 }
 
-.ham-menu {
-  display: none;
-}
-
-.ham-menu button {
-  background: none;
-  border: none;
-  color: var(--text-primary);
-  font-size: 1.8rem;
-  cursor: pointer;
-  padding: 0.25rem;
-}
-
-/* Mobile Navbar Styles */
 @media (max-width: 768px) {
-  .ham-menu {
-    display: block;
+  .navbar-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
   }
   
-  .menu-web {
-    display: none;
-  }
-
-  .menu-mobile {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: var(--bg-surface);
-    border-bottom: 1px solid var(--border-color);
-    padding: 1.5rem 2rem;
-    box-shadow: var(--shadow-lg);
-  }
-
-  .menu-mobile ul {
-    display: flex;
-    flex-direction: column;
+  .navbar-grid nav ul {
     gap: 1.5rem;
-    list-style: none;
-  }
-
-  .menu-mobile ul li a {
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: var(--text-secondary);
-    display: block;
-  }
-
-  .menu-mobile ul li a:hover,
-  .menu-mobile ul li a.active {
-    color: var(--color-primary);
-    padding-left: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 

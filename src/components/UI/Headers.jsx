@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 
 export const Headers = () =>{
-  return <header>
+  return <header className="header-section">
     <div className="container">
-      <div className="grid navbar-grid">
+      <div className="navbar-grid">
         <div className="logo">
           <NavLink to="/">
             <h1>WorldAtlas</h1>
@@ -23,13 +23,8 @@ export const Headers = () =>{
             <li>
               <NavLink to="/contact">Contact</NavLink>
             </li>
-            <li>
-              <NavLink>Home</NavLink>
-            </li>
-
           </ul>
         </nav>
-
       </div>
     </div>
   </header>
