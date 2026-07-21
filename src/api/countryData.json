@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1438069596,
+    "interestingFact": "India is home to the world's largest democracy and the Taj Mahal, one of the Seven Wonders of the World."
+  },
+  {
+    "id": 2,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 123294513,
+    "interestingFact": "Japan has more than 6,800 islands and is famous for its advanced technology and bullet trains."
+  },
+  {
+    "id": 3,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 211998573,
+    "interestingFact": "Brazil contains about 60% of the Amazon Rainforest, the largest tropical rainforest on Earth."
+  },
+  {
+    "id": 4,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 27000000,
+    "interestingFact": "Australia is the only country that is also an entire continent and is home to unique wildlife like kangaroos and koalas."
+  },
+  {
+    "id": 5,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 41012600,
+    "interestingFact": "Canada has the longest coastline in the world, stretching over 202,000 kilometers."
+  },
+  {
+    "id": 6,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": 68413873,
+    "interestingFact": "The Eiffel Tower in Paris was once the tallest man-made structure in the world."
+  },
+  {
+    "id": 7,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 118365995,
+    "interestingFact": "Egypt's Great Pyramid of Giza is the oldest and only surviving wonder of the Ancient World."
+  },
+  {
+    "id": 8,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": 1419321278,
+    "interestingFact": "The Great Wall of China stretches over 21,000 kilometers and is one of the world's most famous landmarks."
+  },
+  {
+    "id": 9,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": 58987000,
+    "interestingFact": "Italy is home to the Colosseum, one of the greatest architectural achievements of the Roman Empire."
+  },
+  {
+    "id": 10,
+    "countryName": "South Africa",
+    "capital": "Pretoria",
+    "population": 64007187,
+    "interestingFact": "South Africa has three capital cities: Pretoria, Cape Town, and Bloemfontein."
+  }
+]

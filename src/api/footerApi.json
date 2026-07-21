@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Chandigarh University, Punjab, India"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "+91 9140666165"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "amit097gupta@gmial.com"
+  }
+]
