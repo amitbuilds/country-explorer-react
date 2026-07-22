@@ -1,16 +1,62 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+🌐 **Live Demo:**  
+Add your website link here: [Country Explorer Website](https://country-explorer-react-rho.vercel.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About the Project
+
+This project is built using **React** and **Vite**, providing a fast and modern development experience. Vite offers lightning-fast startup, Hot Module Replacement (HMR), and an optimized build process, making React development more efficient.
+
+## Features
+
+- ⚛️ Built with React
+- ⚡ Powered by Vite for fast performance
+- 🔄 Hot Module Replacement (HMR)
+- 📦 Optimized production builds
+- 🧹 Clean and scalable project structure
+- ✅ Modern linting support for better code quality
+
+## Plugins Used
+
+This project supports the official React plugins for Vite:
+
+- **@vitejs/plugin-react** – Uses **Oxc** for improved performance.
+- **@vitejs/plugin-react-swc** – Uses **SWC** for faster compilation.
 
 ## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The React Compiler is not enabled by default in this project to maintain fast development and build performance. If needed, it can be added later by following the official React documentation.
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Clone the repository and install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build the project for production:
+
+```bash
+npm run build
+```
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+
+## License
+
+This project is created for learning and portfolio purposes.
